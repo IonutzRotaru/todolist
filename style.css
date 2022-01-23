@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #f7f7f7;
+}
+
+section {
+	width: 70%;
+	background: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #e1e2e3;
+	padding: 20px 0;
+	border-radius: 4px;
+}
+input[type] {
+	width: 300px;
+	border-radius: 4px;
+}
+
+#add {
+	padding: 8px;
+	margin-left: 20px;
+	width: 100px;
+	background-color: #35b6f8;
+	border-radius: 4px;
+	border: none;
+	color: white;
+}
+
+img {
+	width: 40px;
+
+	border-radius: 50%;
+}
+
+.firstpart {
+	display: flex;
+	justify-content: center;
+}
+
+.sterge {
+	display: flex;
+	justify-content: center;
+}
+
+.sterge button {
+	width: 100px;
+	padding: 6px;
+	background-color: #f33f49;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+.presetat {
+	display: flex;
+}
+.poza {
+	margin-right: 10px;
+}
+.mail {
+	margin-bottom: 20px;
+}
+
+.secondpart_default,
+.secondpart {
+	margin-top: 50px;
+	border-top: 1px solid #e1e2e3;
+	border-bottom: 1px solid #e1e2e3;
+	background: #f2fafd;
+	padding: 15px;
+}
+
+.secondpart_default {
+	display: none;
+}
+.comments_area .secondpart_default,
+.comments_area .secondpart {
+	display: block;
+}
